@@ -19,5 +19,10 @@ int main( int argc, char **argv ) {
     Your code
     */
 
+    int a = atoi(argv[1]);
+    double b = atof(argv[3]);
+
+    printf("2%d %s %f\n", a, argv[2], b);
+
     return 0;
 }
