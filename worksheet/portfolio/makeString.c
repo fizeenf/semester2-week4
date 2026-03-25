@@ -20,7 +20,7 @@ int main( int argc, char **argv ) {
 
         strcat(buffer, argv[i]);
 
-        if (i < argc -1) {
+        if (i < argc - 1) {
 
             strcat(buffer, "-");
 
