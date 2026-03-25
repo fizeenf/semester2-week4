@@ -22,7 +22,7 @@ int main( int argc, char **argv ) {
 
         if (i < argc -1) {
 
-            strcat(buffer, " ");
+            strcat(buffer, "-");
 
         }
         
